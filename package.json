@@ -2,7 +2,7 @@
   "name": "cckl-react-ts-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cckl.github.io/react-gh-pages",
+  "homepage": "https://cckl.github.io",
   "dependencies": {
     "cra-template-typescript": "1.2.0",
     "eslint": "^8.57.0",
