@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
 import './index.css';
 import Root from './app/routes/Root.tsx';
-import About from './app/pages/About.tsx';
-import Home from './app/pages/Home.tsx';
-import Projects from './app/pages/Projects.tsx';
+import About from './app/routes/About.tsx';
+import Home from './app/routes/Home.tsx';
+import Projects from './app/routes/Projects.tsx';
 
 // import reportWebVitals from './reportWebVitals';
 
