@@ -92,10 +92,10 @@ function About() {
                                 </td>
                             </tr>
                             <tr className="flex justify-between">
-                                <td className="text-mushroom font-normal">
+                                <td className="text-mushroom contrast-more:text-dark-mushroom font-normal">
                                     Tech Lead → Engineering Manager
                                 </td>
-                                <td className="text-mushroom font-normal">
+                                <td className="text-mushroom contrast-more:text-dark-mushroom font-normal">
                                     2022-2023
                                 </td>
                             </tr>
@@ -120,10 +120,10 @@ function About() {
                                 </td>
                             </tr>
                             <tr className="flex justify-between pt-4">
-                                <td className="text-mushroom font-normal">
+                                <td className="text-mushroom contrast-more:text-dark-mushroom font-normal">
                                     Full-Stack Software Engineer
                                 </td>
-                                <td className="text-mushroom font-normal">
+                                <td className="text-mushroom contrast-more:text-dark-mushroom font-normal">
                                     2019-2021
                                 </td>
                             </tr>
@@ -149,7 +149,7 @@ function About() {
                                 </td>
                             </tr>
                             <tr className="flex justify-between">
-                                <td className="text-mushroom font-normal">
+                                <td className="text-mushroom contrast-more:text-dark-mushroom font-normal">
                                     Volunteer Teaching Assistant
                                 </td>
                                 <td className="text-dark-mushroom font-normal">
@@ -188,10 +188,10 @@ function About() {
                             </tr>
 
                             <tr className="flex justify-between">
-                                <td className="text-mushroom font-normal">
+                                <td className="text-mushroom contrast-more:text-dark-mushroom font-normal">
                                     Full-Stack Software Engineering Program
                                 </td>
-                                <td className="text-mushroom font-normal">
+                                <td className="text-mushroom contrast-more:text-dark-mushroom font-normal">
                                     2019
                                 </td>
                             </tr>
@@ -201,10 +201,10 @@ function About() {
                                 </td>
                             </tr>
                             <tr className="flex justify-between">
-                                <td className="text-mushroom font-normal">
+                                <td className="text-mushroom contrast-more:text-dark-mushroom font-normal">
                                     Bachelor of Laws (Hons)
                                 </td>
-                                <td className="text-mushroom font-normal">
+                                <td className="text-mushroom contrast-more:text-dark-mushroom font-normal">
                                     2018
                                 </td>
                             </tr>

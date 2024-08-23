@@ -17,9 +17,9 @@ function Home() {
                 </div>
                 <br />
                 <p className="text:base md:text-xl">
-                    I'm a full-stack software engineer with 4.5 years of
+                    I'm a full-stack software engineer with 5 years of
                     experience building and scaling web applications, including
-                    1.5 years as an engineering manager / tech lead.
+                    ~2 years as an engineering manager / tech lead.
                 </p>
                 <br />
                 <p className="text:base md:text-xl">
@@ -28,12 +28,11 @@ function Home() {
                 </p>
                 <br />
                 <Link
-                    className="text:base md:text-xl underline decoration-dotted decoration-1 text-mushroom"
+                    className="text:base md:text-xl underline decoration-dotted decoration-1 text-mushroom contrast-more:text-dark-mushroom"
+                    aria-label="Contact me"
                     to="/contact"
                 >
-                    <span className="hover:font-normal">
-                        Want to get in touch?
-                    </span>
+                    <span className="font-normal">Want to get in touch?</span>
                 </Link>
             </div>
         </SplitScreen>

@@ -49,6 +49,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+@media (prefers-contrast: more) {
+    body {
+        font-weight: 400;
+    }
+}
+
 a {
     cursor: url('./app/hand-pointer.svg'), auto;
 }
