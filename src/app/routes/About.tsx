@@ -1,10 +1,10 @@
 import React from 'react';
-import SplitScreen from '../components/SplitScreen';
-import ProfilePic from '../components/ProfilePic';
-import SubHeading from '../components/SubHeading';
-import Section from '../components/Section';
-import DiamondBullet from '../components/StarBullet';
 import { Link } from 'react-router-dom';
+import SplitScreen from '../components/SplitScreen.tsx';
+import ProfilePic from '../components/ProfilePic.tsx';
+import SubHeading from '../components/SubHeading.tsx';
+import Section from '../components/Section.tsx';
+import DiamondBullet from '../components/StarBullet.tsx';
 
 function About() {
     return (

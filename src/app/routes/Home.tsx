@@ -1,9 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SplitScreen from '../components/SplitScreen.tsx';
 import ProfilePic from '../components/ProfilePic.tsx';
 import '../../index.css';
 import Heading from '../components/Heading.tsx';
-import { Link } from 'react-router-dom';
 
 function Home() {
     return (

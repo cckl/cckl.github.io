@@ -1,6 +1,6 @@
 import React from 'react';
-import SubHeading from '../components/SubHeading';
-import Section from '../components/Section';
+import SubHeading from '../components/SubHeading.tsx';
+import Section from '../components/Section.tsx';
 import { Link } from 'react-router-dom';
 
 function Contact() {

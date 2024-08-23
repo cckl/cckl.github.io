@@ -5,7 +5,7 @@
         {
             "src": "star.png",
             "type": "image/png",
-            "sizes": "24x24"
+            "sizes": "240x240"
         }
     ],
     "start_url": ".",
