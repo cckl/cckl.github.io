@@ -18,7 +18,10 @@ function Projects() {
                             preload="auto"
                             className="w-full"
                         >
-                            <source src="https://cdn-useast1.kapwing.com/teams/642b0551e45a0fe25b87dfe9/jobs/66c7e6a266f7dec667ba3dd6/final_66c7e669a684cc4c6215c382_784716.mp4?GoogleAccessId=prod-sa-videoprocessing%40kapwing-prod.iam.gserviceaccount.com&Expires=1724408646&Signature=JTUqKIBVs3SdUmQNoCa89IEucXA99FDSfMebnxZjKBXYIaZjvMdQhRt05gJAs5CnVImhVJZILDOPdZ2d6Pwn6FPKJXZkDNejkJQx%2FfownxKdP19u%2FH6x4gtYtkHWcY52PqFTdZPwPUle1qjeNf4AJE1vNXWYM8FCftdH11sOrCQMW8d0GUGkzZCMBWFVLr7fI%2FB9atl7EqZGE7wWVcBxI0VB8T3i4MtpFgwfck8n3jYBQYcuyqlpqleyxRVvetPkqP1rSzCeBLvnhna6xvEc941TTQlItQvK1ujJ0SkNTSd%2F3qiu3DURe7vQI0YXyK7LVI5oNdJTQCrRmpogMrDYAA%3D%3D#t=0.01"></source>
+                            <source
+                                type="video/mp4"
+                                src="https://cdn-useast1.kapwing.com/teams/642b0551e45a0fe25b87dfe9/jobs/66c7e6a266f7dec667ba3dd6/final_66c7e669a684cc4c6215c382_784716.mp4?GoogleAccessId=prod-sa-videoprocessing%40kapwing-prod.iam.gserviceaccount.com&Expires=1724408646&Signature=JTUqKIBVs3SdUmQNoCa89IEucXA99FDSfMebnxZjKBXYIaZjvMdQhRt05gJAs5CnVImhVJZILDOPdZ2d6Pwn6FPKJXZkDNejkJQx%2FfownxKdP19u%2FH6x4gtYtkHWcY52PqFTdZPwPUle1qjeNf4AJE1vNXWYM8FCftdH11sOrCQMW8d0GUGkzZCMBWFVLr7fI%2FB9atl7EqZGE7wWVcBxI0VB8T3i4MtpFgwfck8n3jYBQYcuyqlpqleyxRVvetPkqP1rSzCeBLvnhna6xvEc941TTQlItQvK1ujJ0SkNTSd%2F3qiu3DURe7vQI0YXyK7LVI5oNdJTQCrRmpogMrDYAA%3D%3D#t=0.01"
+                            ></source>
                         </video>
                     </div>
                     <div className="w-full text-lg flex flex-col h-full justify-start">
@@ -55,7 +58,10 @@ function Projects() {
                             preload="auto"
                             className="w-full"
                         >
-                            <source src="https://cdn-useast1.kapwing.com/teams/642b0551e45a0fe25b87dfe9/jobs/66c7f59e3675430ba5130129/final_66c7f58c1992143baf544c79_434850.mp4?GoogleAccessId=prod-sa-videoprocessing%40kapwing-prod.iam.gserviceaccount.com&Expires=1724409389&Signature=SyPDCjayPrFLz9az7DBkDBVtMoFH2%2FCneuBAGpK2TV%2FgBHmOmv10%2BLJ3XH1UZE8UBvGkPXkaJCKwPBI%2F5QBDBCK%2Fo4T0SKhl8ssaUWerZWPi2Wu%2FfjoJ2%2BKIWeyb62KYSMin9l3hMwRgLXxtkjYCCe8Ot1G9K%2BfFpnVJ7%2FsksoY6ubFSXr8DEb8JNrXP%2BOgdVaKUG8vJCYcVIE19AWHWovoimfw3Y9f1bM%2BlM8AJy5pvKUOHrgHvDvRGDKbC9hFtEXialFfio%2BN%2FYtlj4NT0cwRzr3CqIkGlUADVcRE26PqovtY9Kj8odoJZllkpHrzIvEXjlmTjr2pNH8Dn%2FwtMOg%3D%3D#t=0.01"></source>
+                            <source
+                                type="video/mp4"
+                                src="https://cdn-useast1.kapwing.com/teams/642b0551e45a0fe25b87dfe9/jobs/66c803e9f8c89d0262dc1cb1/final_66c7f58c1992143baf544c79_877472.mp4?GoogleAccessId=prod-sa-videoprocessing%40kapwing-prod.iam.gserviceaccount.com&Expires=1724413152&Signature=D0E7FCaNdZw4csFf6WbPulzgCUF4VyxRtCJYEVmlV8P4IScXAKGgBgPklff%2FHDtbLNjjspU29ypzAtniQ1SDL0oEDXnr7h0Y9J%2FgB3f2nKvqCXgiYv5Z8T5nb11FsasTg0pbkNq8h6MrH1D4aKblbuCTElCF4QADGQtgo68J8yAA6M7xUr6ksHpnp87jGqIBSxsvp55%2Bq67oTU2R81SVxtk4GgccWx9%2FqLqrpQWqLvaQgWise4u7KqCMjbkCIEiIYWr1NV6KehxrmLJ2iTg8bgH6oGNWA0u4mUWcARt9bL4gzMLUx5oBa2yfXyODKG3FLZhgFDxJ5yWPvlneIXNBuA%3D%3D#t=0.01"
+                            ></source>
                         </video>
                     </div>
                     <div className="text-lg flex flex-col h-full justify-start">
