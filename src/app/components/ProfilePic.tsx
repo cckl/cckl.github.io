@@ -3,11 +3,11 @@ const imageSrc = require('../headshot.jpg');
 
 function ProfilePic() {
     return (
-        <div className="flex shrink justify-center mx-auto">
+        <div className="flex justify-center mx-auto">
             <img
                 src={String(imageSrc)}
                 alt="a pic of me"
-                className="max-w-36 max-h-36 md:max-w-full md:max-h-full rounded-full"
+                className="shrink max-w-36 max-h-36 md:max-w-64 md:max-h-64 rounded-full"
             />
         </div>
     );

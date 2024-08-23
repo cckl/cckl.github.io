@@ -28,10 +28,12 @@ function Home() {
                 </p>
                 <br />
                 <Link
-                    className="text:base md:text-xl underline decoration-dotted decoration-1 text-mushroom hover:font-normal"
+                    className="text:base md:text-xl underline decoration-dotted decoration-1 text-mushroom"
                     to="/contact"
                 >
-                    Want to get in touch?
+                    <span className="hover:font-normal">
+                        Want to get in touch?
+                    </span>
                 </Link>
             </div>
         </SplitScreen>

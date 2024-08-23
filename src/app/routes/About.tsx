@@ -11,12 +11,12 @@ function About() {
     return (
         <SplitScreen leftWeight="1/4" rightWeight="3/4">
             {/*Left*/}
-            <div className="flex">
+            <div>
                 <ProfilePic />
             </div>
 
             {/*Right*/}
-            <div className="transition ease-in-out delay-150">
+            <div>
                 <Section>
                     <SubHeading>overview</SubHeading>
                     <li className="flex">
