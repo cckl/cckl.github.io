@@ -6,7 +6,7 @@ function ProfilePic() {
         <img
             src={String(imageSrc)}
             alt="a pic of me"
-            className="w-1/2 md:w-full md:full mx-auto rounded-full"
+            className="flex shrink max-w-36 max-h-36 md:max-w-full md:max-h-full mx-auto rounded-full"
         ></img>
     );
 }

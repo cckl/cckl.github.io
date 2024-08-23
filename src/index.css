@@ -8,6 +8,12 @@
     initial-value: rgb(77 124 15);
 }
 
+@property --med-green {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: rgb(113, 137, 82);
+}
+
 @property --light-mushroom {
     syntax: '<color>';
     inherits: false;
@@ -31,7 +37,7 @@ body {
     font-family: 'Helvetica Neue', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
     font-weight: 300;
     letter-spacing: 0.02em;
-    color: rgb(52, 51, 51);
+    color: black;
     cursor: url('./app/arrow-cursor-outline.svg'), auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -77,11 +83,6 @@ li {
     }
 }
 
-.browser-window {
-    min-height: 80vh;
-    max-height: 80vh;
-}
-
 ::-webkit-scrollbar {
     width: 3px;
 }
@@ -113,4 +114,7 @@ li {
 }
 .bg-dark-mushroom {
     background-color: var(--dark-mushroom);
+}
+.border-med-green {
+    border-color: var(--med-green);
 }

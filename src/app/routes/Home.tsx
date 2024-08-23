@@ -3,6 +3,7 @@ import SplitScreen from '../components/SplitScreen.tsx';
 import ProfilePic from '../components/ProfilePic.tsx';
 import '../../index.css';
 import Heading from '../components/Heading.tsx';
+import { Link } from 'react-router-dom';
 
 function Home() {
     return (
@@ -21,7 +22,17 @@ function Home() {
                     1.5 years as an engineering manager / tech lead.
                 </p>
                 <br />
-                <p className="text-xl">Currently based in San Francisco.</p>
+                <p className="text-xl">
+                    Currently based in San Francisco.{' '}
+                    <span className="text-dark-mushroom">࿐ ࿔*:･ﾟ༄</span>
+                </p>
+                <br />
+                <Link
+                    className="text-xl hover:underline decoration-wavy decoration-1 text-mushroom"
+                    to="/contact"
+                >
+                    Want to get in touch?
+                </Link>
             </div>
         </SplitScreen>
     );

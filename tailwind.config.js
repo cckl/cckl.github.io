@@ -4,9 +4,12 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                anonymousPro: ['Anonymous Pro']
-            }
-        }
+                anonymousPro: ['Anonymous Pro'],
+            },
+            maxHeight: {
+                '9/10': '20%',
+            },
+        },
     },
-    plugins: []
+    plugins: [],
 };

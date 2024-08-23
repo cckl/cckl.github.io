@@ -26,6 +26,12 @@ function Navbar() {
                 >
                     projects
                 </Link>
+                <Link
+                    className="px-4 text-lime-800 hover:underline hover:translate-y-1"
+                    to="/contact"
+                >
+                    contact
+                </Link>
             </div>
         </div>
     );

@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 function Projects() {
     return (
-        <div className='border-2'>This is my fancy Projects page.</div>
-    )
+        <div className="container p-6 md:p-8">
+            This page is under construction!
+        </div>
+    );
 }
 
 export default Projects;
