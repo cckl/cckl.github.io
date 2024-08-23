@@ -16,19 +16,19 @@ function Home() {
                     <Heading>hi, i'm christina ☺</Heading>
                 </div>
                 <br />
-                <p className="text-xl">
+                <p className="text:base md:text-xl">
                     I'm a full-stack software engineer with 4.5 years of
                     experience building and scaling web applications, including
                     1.5 years as an engineering manager / tech lead.
                 </p>
                 <br />
-                <p className="text-xl">
+                <p className="text:base md:text-xl">
                     Currently based in San Francisco.{' '}
                     <span className="text-dark-mushroom">࿐ ࿔*:･ﾟ༄</span>
                 </p>
                 <br />
                 <Link
-                    className="text-xl hover:underline decoration-wavy decoration-1 text-mushroom"
+                    className="text:base md:text-xl hover:underline decoration-wavy decoration-1 text-mushroom"
                     to="/contact"
                 >
                     Want to get in touch?

@@ -7,7 +7,7 @@ function Contact() {
     return (
         <div className="container mx-auto p-8 m-8 flex flex-col justify-center content-center items-center text-center">
             <SubHeading>let's connect</SubHeading>
-            <div className="text-lg">
+            <div className="text-base md:text-lg">
                 <Section>
                     <br />
                     <p>
@@ -17,7 +17,7 @@ function Contact() {
                         {': '}
                         isitchristina [at] gmail [dot] com
                     </p>
-                    <p className="text-base italic">
+                    <p className="text-sm md:text-base italic">
                         (You know what to do...formatted like this because
                         spammers.)
                     </p>

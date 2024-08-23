@@ -10,24 +10,27 @@ function Navbar() {
                 <BrowserButton color="bg-mushroom"></BrowserButton>
                 <BrowserButton color="bg-light-mushroom"></BrowserButton>
             </div>
-            <div className="text-right font-anonymousPro font-medium select-none">
-                <Link className="px-4 text-lime-800 hover:underline" to="/">
+            <div className="text-right font-anonymousPro text-sm md:text-base select-none">
+                <Link
+                    className="px-1 md:px-4 text-lime-800 hover:underline"
+                    to="/"
+                >
                     home
                 </Link>
                 <Link
-                    className="px-4 text-lime-800 hover:underline"
+                    className="px-1 md:px-4 text-lime-800 hover:underline"
                     to="/about"
                 >
                     about
                 </Link>
                 <Link
-                    className="px-4 text-lime-800 hover:underline hover:translate-y-1"
+                    className="px-1 md:px-4 text-lime-800 hover:underline hover:translate-y-1"
                     to="/projects"
                 >
                     projects
                 </Link>
                 <Link
-                    className="px-4 text-lime-800 hover:underline hover:translate-y-1"
+                    className="px-1 md:px-4 text-lime-800 hover:underline hover:translate-y-1"
                     to="/contact"
                 >
                     contact
