@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Contact() {
     return (
-        <div className="container mx-auto p-8 m-8 flex flex-col justify-center content-center items-center text-center">
+        <div className="container mx-auto py-8 px-8 md:px-16 flex flex-col justify-center content-start items-start text-left">
             <SubHeading>let's connect</SubHeading>
             <div className="text-base md:text-lg">
                 <Section>
@@ -18,8 +18,7 @@ function Contact() {
                         isitchristina [at] gmail [dot] com
                     </p>
                     <p className="text-sm md:text-base italic">
-                        (You know what to do...formatted like this because
-                        spammers.)
+                        (You know what to do...unless you are a spammer.)
                     </p>
                 </Section>
                 <Section>

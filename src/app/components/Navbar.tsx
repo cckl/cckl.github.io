@@ -5,7 +5,7 @@ import BrowserButton from './BrowserButton.tsx';
 function Navbar() {
     return (
         <div className="py-2 pl-2 flex justify-between border-b-2">
-            <div className="flex justify-around items-center w-20">
+            <div className="flex justify-around items-center w-14 md:w-20">
                 <BrowserButton color="bg-dark-mushroom"></BrowserButton>
                 <BrowserButton color="bg-mushroom"></BrowserButton>
                 <BrowserButton color="bg-light-mushroom"></BrowserButton>

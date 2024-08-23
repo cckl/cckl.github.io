@@ -5,10 +5,11 @@ import ProfilePic from '../components/ProfilePic.tsx';
 import SubHeading from '../components/SubHeading.tsx';
 import Section from '../components/Section.tsx';
 import DiamondBullet from '../components/StarBullet.tsx';
+import Badge from '../components/Badge.tsx';
 
 function About() {
     return (
-        <SplitScreen>
+        <SplitScreen leftWeight="1/4" rightWeight="3/4">
             {/*Left*/}
             <div className="flex">
                 <ProfilePic />
@@ -21,7 +22,7 @@ function About() {
                     <li className="flex">
                         <DiamondBullet />
                         <p>
-                            I'm a software engineer with a proclivity for{' '}
+                            I'm a software engineer with an affinity for{' '}
                             <span className="hover:underline hover:text-lime-800 transition-all">
                                 product-focused engineering
                             </span>{' '}
@@ -65,6 +66,23 @@ function About() {
                     </li>
                 </Section>
                 <Section>
+                    <SubHeading>core skills</SubHeading>
+                    <div className="flex justify-between flex-wrap">
+                        <Badge>JavaScript</Badge>
+                        <Badge>TypeScript</Badge>
+                        <Badge>HTML/CSS</Badge>
+                        <Badge>MongoDB</Badge>
+                        <Badge>Express</Badge>
+                        <Badge>React</Badge>
+                        <Badge>Redux</Badge>
+                        <Badge>Node.js</Badge>
+                        <Badge>Python</Badge>
+                        <Badge>Flask</Badge>
+                        <Badge>Cypress</Badge>
+                        <Badge>Jest</Badge>
+                    </div>
+                </Section>
+                <Section>
                     <SubHeading>experience</SubHeading>
                     <table className="grid">
                         <tbody>
@@ -86,7 +104,7 @@ function About() {
                                     Most recently, I led the growth of a new pod
                                     focused on Team Expansion & Monetization at{' '}
                                     <Link
-                                        className="hover:text-lime-700"
+                                        className="hover:text-lime-700 underline"
                                         to="https://kapwing.com"
                                         target="_blank"
                                     >
@@ -142,7 +160,7 @@ function About() {
                                 <td>
                                     At{' '}
                                     <Link
-                                        className="hover:text-lime-700"
+                                        className="hover:text-lime-700 underline"
                                         to="https://www.codetenderloin.org/"
                                         target="_blank"
                                     >
@@ -150,11 +168,10 @@ function About() {
                                     </Link>
                                     , I spent extra time outside of work
                                     supporting teaching curriculum for biweekly
-                                    coding classes for students coming from
-                                    backgrounds of previous incarceration or
-                                    homeless. I also presented to the class on
-                                    basics of web development, JavaScript, data
-                                    structures, and algorithms.
+                                    coding classes for students from backgrounds
+                                    of previous incarceration or homelessness. I
+                                    also presented topics to the class on basic
+                                    concepts of JavaScript and data structures.
                                 </td>
                             </tr>
                         </tbody>
@@ -176,13 +193,6 @@ function About() {
                                 </td>
                                 <td className="text-mushroom font-normal">
                                     2019
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    Accelerated 12-week Python and
-                                    JavaScript-focused software engineering
-                                    program.
                                 </td>
                             </tr>
                             <tr>

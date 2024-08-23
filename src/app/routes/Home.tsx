@@ -7,7 +7,7 @@ import Heading from '../components/Heading.tsx';
 
 function Home() {
     return (
-        <SplitScreen>
+        <SplitScreen leftWeight="1/4" rightWeight="3/4">
             <div>
                 <ProfilePic />
             </div>
@@ -24,11 +24,11 @@ function Home() {
                 <br />
                 <p className="text:base md:text-xl">
                     Currently based in San Francisco.{' '}
-                    <span className="text-dark-mushroom">࿐ ࿔*:･ﾟ༄</span>
+                    <span className="text-dark-mushroom">༄</span>
                 </p>
                 <br />
                 <Link
-                    className="text:base md:text-xl hover:underline decoration-wavy decoration-1 text-mushroom"
+                    className="text:base md:text-xl underline decoration-dotted decoration-1 text-mushroom hover:font-normal"
                     to="/contact"
                 >
                     Want to get in touch?

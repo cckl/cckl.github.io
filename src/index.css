@@ -20,6 +20,12 @@
     initial-value: rgb(221, 208, 192);
 }
 
+@property --lighter-mushroom {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: rgb(254, 246, 236);
+}
+
 @property --mushroom {
     syntax: '<color>';
     inherits: false;
@@ -60,6 +66,10 @@ li {
     max-width: 20rem;
     letter-spacing: 0.12em;
     animation: typing 4s steps(40, end), blink-caret 0.9s step-end infinite;
+
+    @media (width <= 768px) {
+        max-width: 13em;
+    }
 }
 
 /* The typing effect */
@@ -109,6 +119,9 @@ li {
 .bg-light-mushroom {
     background-color: var(--light-mushroom);
 }
+.bg-lighter-mushroom {
+    background-color: var(--lighter-mushroom);
+}
 .bg-mushroom {
     background-color: var(--mushroom);
 }
@@ -117,4 +130,7 @@ li {
 }
 .border-med-green {
     border-color: var(--med-green);
+}
+.border-mushroom {
+    border-color: var(--mushroom);
 }
