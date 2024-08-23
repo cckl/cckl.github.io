@@ -14,6 +14,7 @@ function Projects() {
                             autoPlay
                             playsInline
                             loop
+                            muted
                             preload="auto"
                             className="w-full"
                         >
@@ -50,6 +51,7 @@ function Projects() {
                             autoPlay
                             playsInline
                             loop
+                            muted
                             preload="auto"
                             className="w-full"
                         >
