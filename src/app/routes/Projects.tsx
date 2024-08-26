@@ -20,7 +20,7 @@ function Projects() {
                         >
                             <source
                                 type="video/mp4"
-                                src="https://cdn-useast1.kapwing.com/teams/642b0551e45a0fe25b87dfe9/jobs/66c7e6a266f7dec667ba3dd6/final_66c7e669a684cc4c6215c382_784716.mp4?GoogleAccessId=prod-sa-videoprocessing%40kapwing-prod.iam.gserviceaccount.com&Expires=1724408646&Signature=JTUqKIBVs3SdUmQNoCa89IEucXA99FDSfMebnxZjKBXYIaZjvMdQhRt05gJAs5CnVImhVJZILDOPdZ2d6Pwn6FPKJXZkDNejkJQx%2FfownxKdP19u%2FH6x4gtYtkHWcY52PqFTdZPwPUle1qjeNf4AJE1vNXWYM8FCftdH11sOrCQMW8d0GUGkzZCMBWFVLr7fI%2FB9atl7EqZGE7wWVcBxI0VB8T3i4MtpFgwfck8n3jYBQYcuyqlpqleyxRVvetPkqP1rSzCeBLvnhna6xvEc941TTQlItQvK1ujJ0SkNTSd%2F3qiu3DURe7vQI0YXyK7LVI5oNdJTQCrRmpogMrDYAA%3D%3D#t=0.01"
+                                src="https://github.com/cckl/cckl.github.io/raw/main/src/app/Eyedropper.mp4"
                             ></source>
                         </video>
                     </div>
@@ -60,7 +60,7 @@ function Projects() {
                         >
                             <source
                                 type="video/mp4"
-                                src="https://cdn-useast1.kapwing.com/teams/642b0551e45a0fe25b87dfe9/jobs/66c803e9f8c89d0262dc1cb1/final_66c7f58c1992143baf544c79_877472.mp4?GoogleAccessId=prod-sa-videoprocessing%40kapwing-prod.iam.gserviceaccount.com&Expires=1724413152&Signature=D0E7FCaNdZw4csFf6WbPulzgCUF4VyxRtCJYEVmlV8P4IScXAKGgBgPklff%2FHDtbLNjjspU29ypzAtniQ1SDL0oEDXnr7h0Y9J%2FgB3f2nKvqCXgiYv5Z8T5nb11FsasTg0pbkNq8h6MrH1D4aKblbuCTElCF4QADGQtgo68J8yAA6M7xUr6ksHpnp87jGqIBSxsvp55%2Bq67oTU2R81SVxtk4GgccWx9%2FqLqrpQWqLvaQgWise4u7KqCMjbkCIEiIYWr1NV6KehxrmLJ2iTg8bgH6oGNWA0u4mUWcARt9bL4gzMLUx5oBa2yfXyODKG3FLZhgFDxJ5yWPvlneIXNBuA%3D%3D#t=0.01"
+                                src="https://github.com/cckl/cckl.github.io/raw/main/src/app/Audiogram.mp4"
                             ></source>
                         </video>
                     </div>
