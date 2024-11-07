@@ -8,7 +8,7 @@ import Heading from '../components/Heading.tsx';
 function Home() {
     return (
         <SplitScreen leftWeight="1/4" rightWeight="3/4">
-            <div>
+            <div className="min-w-24 md:min-w-64">
                 <ProfilePic />
             </div>
             <div className="flex flex-col justify-center">
