@@ -5,22 +5,24 @@ import SplitScreen from '../components/SplitScreen.tsx';
 import { Link } from 'react-router-dom';
 
 function Projects() {
+    // debugger;
     return (
         <div className="container overflow-y-auto">
             <Section>
                 <SplitScreen leftWeight="2/3" rightWeight="1/3">
-                    <div className="w-full min-w-full">
+                    <div className="min-w-[80vh]">
                         <video
                             autoPlay
                             playsInline
                             loop
                             muted
                             preload="auto"
-                            className="w-full"
+                            className="w-[80vh]"
+                            poster="https://github.com/cckl/cckl.github.io/raw/main/src/app/assets/Eyedropper-poster.png"
                         >
                             <source
                                 type="video/mp4"
-                                src="https://github.com/cckl/cckl.github.io/raw/main/src/app/Eyedropper.mp4"
+                                src="https://github.com/cckl/cckl.github.io/raw/main/src/app/assets/Eyedropper.mp4"
                             ></source>
                         </video>
                     </div>
@@ -49,18 +51,19 @@ function Projects() {
             </Section>
             <Section>
                 <SplitScreen leftWeight="2/3" rightWeight="1/3">
-                    <div className="w-full min-w-full">
+                    <div className="min-w-[80vh]">
                         <video
                             autoPlay
                             playsInline
                             loop
                             muted
                             preload="auto"
-                            className="w-full"
+                            className="w-[80vh]"
+                            poster="https://github.com/cckl/cckl.github.io/raw/main/src/app/assets/Audiogram-poster.png"
                         >
                             <source
                                 type="video/mp4"
-                                src="https://github.com/cckl/cckl.github.io/raw/main/src/app/Audiogram.mp4"
+                                src="https://github.com/cckl/cckl.github.io/raw/main/src/app/assets/Audiogram.mp4"
                             ></source>
                         </video>
                     </div>
@@ -93,8 +96,41 @@ function Projects() {
                 </SplitScreen>
             </Section>
             <Section>
-                <div className="mx-auto text-center text-2xl mb-8 italic">
-                    to be continued (still under construction)
+                <SplitScreen leftWeight="2/3" rightWeight="1/3">
+                    <div className="min-w-[80vh]">
+                        <video
+                            autoPlay
+                            playsInline
+                            loop
+                            muted
+                            preload="auto"
+                            className="w-[80vh]"
+                            poster="https://github.com/cckl/cckl.github.io/raw/main/src/app/assets/Inline-text-poster.png"
+                        >
+                            <source
+                                type="video/mp4"
+                                src="https://github.com/cckl/cckl.github.io/raw/main/src/app/assets/Inline-text.mp4"
+                            ></source>
+                        </video>
+                    </div>
+                    <div className="text-lg flex flex-col h-full justify-start">
+                        <SubHeading>inline text editor</SubHeading>
+                        <p>
+                            WYSIWYG canvas text editor that enables user to add
+                            and style custom text to projects.
+                        </p>
+                        <br />
+                        <p>
+                            Led initial technical investigation to determine
+                            which text editor API to utilize. Implemented with
+                            Draft.js and HTML Canvas.
+                        </p>
+                    </div>
+                </SplitScreen>
+            </Section>
+            <Section>
+                <div className="mx-auto text-center text-xl mb-8 italic">
+                    still in progress—to be continued 🏗️
                 </div>
             </Section>
         </div>

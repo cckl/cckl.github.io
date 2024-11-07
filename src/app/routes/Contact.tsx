@@ -10,18 +10,17 @@ function Contact() {
             <div className="text-base md:text-lg">
                 <Section>
                     <br />
-                    <p>
-                        <span className="font-normal text-mushroom underline">
-                            Email
-                        </span>
-                        {': '}
-                        isitchristina [at] gmail [dot] com
-                    </p>
-                    <p className="text-sm md:text-base italic">
-                        (You know what to do...unless you are a spammer.)
-                    </p>
+                    <p>Want to get in touch?</p>
                 </Section>
                 <Section>
+                    <Link
+                        className="font-normal text-mushroom underline"
+                        to="mailto:isitchristina@gmail.com"
+                    >
+                        Email
+                    </Link>
+                    {' | '}
+
                     <Link
                         className="font-normal text-mushroom underline"
                         to="https://www.linkedin.com/in/christinaling/"
