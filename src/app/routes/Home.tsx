@@ -19,7 +19,7 @@ function Home() {
                 <p className="text:base md:text-xl">
                     I'm a full-stack software engineer with 5 years of
                     experience building and scaling web applications, including
-                    ~2 years as an engineering manager / tech lead.
+                    ~2 years as an engineering manager & tech lead.
                 </p>
                 <br />
                 <p className="text:base md:text-xl">
