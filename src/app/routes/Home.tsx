@@ -8,10 +8,10 @@ import Heading from '../components/Heading.tsx';
 function Home() {
     return (
         <SplitScreen leftWeight="1/4" rightWeight="3/4">
-            <div className="min-w-24 md:min-w-64">
+            <section className="min-w-24 md:min-w-64">
                 <ProfilePic />
-            </div>
-            <div className="flex flex-col justify-center">
+            </section>
+            <section className="flex flex-col justify-center">
                 <div className="typewriter">
                     <Heading>hi, i'm christina ☺</Heading>
                 </div>
@@ -34,7 +34,7 @@ function Home() {
                 >
                     <span className="font-normal">Want to get in touch?</span>
                 </Link>
-            </div>
+            </section>
         </SplitScreen>
     );
 }

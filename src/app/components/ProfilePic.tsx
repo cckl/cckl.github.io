@@ -6,7 +6,7 @@ function ProfilePic() {
         <div className="flex justify-center mx-auto">
             <img
                 src={String(imageSrc)}
-                alt="a pic of me"
+                alt="profile pic of christina"
                 className="shrink max-w-36 max-h-36 md:max-w-64 md:max-h-64 rounded-full"
             />
         </div>

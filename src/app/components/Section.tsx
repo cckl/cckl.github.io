@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Section = ({ children }) => {
-    return <div className="mb-6">{children}</div>;
+    return <section className="mb-6">{children}</section>;
 };
 
 export default Section;

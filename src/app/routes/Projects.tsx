@@ -10,8 +10,9 @@ function Projects() {
         <div className="container overflow-y-auto">
             <Section>
                 <SplitScreen leftWeight="2/3" rightWeight="1/3">
-                    <div className="min-w-[80vh]">
+                    <div className="max-w-1/4 md:max-w-[80vh]">
                         <video
+                            alt="demo of eyedropper tool"
                             autoPlay
                             playsInline
                             loop
@@ -51,8 +52,9 @@ function Projects() {
             </Section>
             <Section>
                 <SplitScreen leftWeight="2/3" rightWeight="1/3">
-                    <div className="min-w-[80vh]">
+                    <div className="max-w-1/4 md:max-w-[80vh]">
                         <video
+                            alt="demo of waveform tool"
                             autoPlay
                             playsInline
                             loop
@@ -97,8 +99,9 @@ function Projects() {
             </Section>
             <Section>
                 <SplitScreen leftWeight="2/3" rightWeight="1/3">
-                    <div className="min-w-[80vh]">
+                    <div className="max-w-1/4 md:max-w-[80vh]">
                         <video
+                            alt="demo of inline text editor"
                             autoPlay
                             playsInline
                             loop

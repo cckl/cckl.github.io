@@ -4,13 +4,13 @@ import BrowserButton from './BrowserButton.tsx';
 
 function Navbar() {
     return (
-        <div className="py-2 pl-2 flex justify-between border-b-2">
+        <header className="py-2 pl-2 flex justify-between border-b-2">
             <div className="flex justify-around items-center w-14 md:w-20">
                 <BrowserButton color="bg-dark-mushroom"></BrowserButton>
                 <BrowserButton color="bg-mushroom"></BrowserButton>
                 <BrowserButton color="bg-light-mushroom"></BrowserButton>
             </div>
-            <div className="text-right font-anonymousPro text-sm md:text-base select-none">
+            <nav className="text-right font-anonymousPro text-sm md:text-base select-none">
                 <Link
                     className="px-1 md:px-4 text-lime-800 hover:underline"
                     to="/"
@@ -35,8 +35,8 @@ function Navbar() {
                 >
                     contact
                 </Link>
-            </div>
-        </div>
+            </nav>
+        </header>
     );
 }
 
